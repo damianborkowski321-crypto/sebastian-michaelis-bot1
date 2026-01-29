@@ -1,0 +1,7 @@
+# endings.py
+def evaluate_ending(u):
+    if u.get("bond",0) > 10:
+        return "True Servant Ending"
+    elif u.get("corruption",0) > 5:
+        return "Demonic Ending"
+    return None
